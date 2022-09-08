@@ -1,0 +1,52 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+    background-size: cover;
+    background-position: center;
+}
+
+#title {
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+}
+
+#startButton {
+    font-size: 18px;
+}
+
+.statusClass, .numberOfObjectsClass {
+    border: white solid 4px;
+    border-radius: 4px;
+    padding: 9px;
+}
+
+.copy_right_footer {
+    bottom: 0;
+    position : fixed;
+    background-color: grey;
+    color: white;
+    width: 100%;
+    font-size: 18px;
+    line-height: 3;
+}
+
+canvas {
+    border: white solid 5px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px red;
+    animation: boxShadow 3s infinite;
+}
+
+@keyframes boxShadow {
+    from,to {box-shadow: 5px 5px 15px red}
+    10% {box-shadow: 5px 5px 15px orange}
+    20% {box-shadow: 5px 5px 15px  yellow}
+    30% {box-shadow: 5px 5px 15px  greenyellow}
+    40% {box-shadow: 5px 5px 15px  green}
+    50% {box-shadow: 5px 5px 15px  darkcyan}
+    60% {box-shadow: 5px 5px 15px  cyan}
+    70% {box-shadow: 5px 5px 15px  cornflowerblue}
+    80% {box-shadow: 5px 5px 15px  blue}
+    90% {box-shadow: 5px 5px 15px  darkorchid}
+    100% {box-shadow: 5px 5px 15px  purple}
+}
